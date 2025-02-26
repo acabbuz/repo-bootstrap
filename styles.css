@@ -31,6 +31,10 @@ body {
 
 }
 
+#barras {
+    color: white;
+}
+
 .card-body p {
     text-align: center;
 
@@ -46,6 +50,7 @@ body {
 }
 
 .container p {
+
     font-size: 1.5em;
 }
 
@@ -53,16 +58,35 @@ body {
     background-color: rgb(20, 20, 20);
     box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.6),
         inset 0 -4px 6px rgba(0, 0, 0, 0.6);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
     color: white;
     width: 100%;
 
 
+
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
 }
 
 
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+
+    gap: 20px
+}
+
+#aca {
+    height: 100px;
+}
+
+.icons img {
+    width: 8%;
+}
 
 .col-md-3 {
     margin: 20px;
@@ -84,7 +108,7 @@ body {
 }
 
 #prin {
-    height: 100vh;
+
     color: white;
 }
 
@@ -150,4 +174,9 @@ body {
 
 nav {
     border-bottom: 4px solid rgb(255, 253, 155);
+}
+
+.rounded-circle {
+    width: 15em;
+    height: 13em;
 }
