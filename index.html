@@ -11,33 +11,44 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Currículum - Adrián Cabeza</a>
-        </div>
-    </nav>
+    <div id="prin">
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Currículum - Adrián Cabeza</a>
+                <div class="nav-a">
+                    <a href="#habilidades" class="navbar-brand">HABILIDADES <img src="img/inteligencia (1).png"
+                            alt=""></a>
+                    <a href="#experiencia" class="navbar-brand">EXPERIENCIA LABORAL <img
+                            src="img/customer-review (1).png" alt=""></a>
+                    <a href="" class="navbar-brand">PROYECTOS <img src="img/cierre.png" alt=""></a>
+                </div>
 
-    <!-- Sección de Perfil -->
-    <section class="container my-5 text-center">
-        <img src="fernando-alonso-2024.png" class="rounded-circle" alt="" width="150" height="150">
-        <h1 class="my-3">Adrián Cabeza</h1>
-        <p class="lead">Desarrollador Web Full Stack</p>
-        <p>Me apasiona crear soluciones digitales mediante el desarrollo web. Tengo experiencia en frontend y
-            backend
-            con tecnologías modernas.</p>
-        <a href="#" class="btn btn-primary">Descargar Currículum</a>
-    </section>
+            </div>
+        </nav>
 
+        <!-- Sección de Perfil -->
+        <section class="container my-5 text-center">
+            <img src=" img/fernando-alonso-2024.png" class="rounded-circle" alt="" width="150" height="150">
+            <h1 class="my-3">Adrián Cabeza</h1>
+            <p class="lead">Desarrollador Web Full Stack</p>
+            <p>Me apasiona crear soluciones digitales mediante el desarrollo web. Tengo experiencia en frontend y
+                backend
+                con tecnologías modernas.</p>
+            <a href="#" class="btn btn-primary">Descargar Currículum</a>
+        </section>
+    </div>
     <!-- Sección de Habilidades -->
-    <section class="container my-5">
+
+    <section class="container my-5" id="habilidades">
         <h2 class="text-center mb-4">Habilidades</h2>
         <div class="row">
             <!-- Habilidades Frontend -->
             <div class="col-md-4">
                 <div class="card p-3" id="cardd">
                     <div class="card-body">
-                        <h5 class="card-title">Frontend <img src="Front-end-logo-color2x.png" alt="" class="logo"></h5>
+                        <h5 class="card-title">Frontend</h5>
+                        <img src="img/Front-end-logo-color2x.png" alt="" class="logo">
                         <ul class="list-unstyled">
                             <li>HTML5, CSS</li>
                             <li>Bootstrap 5</li>
@@ -49,10 +60,11 @@
             <div class="col-md-4">
                 <div class="card p-3" id="cardd">
                     <div class="card-body">
-                        <h5 class="card-title">Backend <img src="desarrollo-web.png" alt="" class="logo"></h5>
+                        <h5 class="card-title">Backend </h5>
+                        <img src="img/desarrollo-web.png" alt="" class="logo">
                         <ul class="list-unstyled">
                             <li>Java, Python</li>
-                            <li>Java, Python</li>
+                            <li>PHP (básico)</li>
 
                         </ul>
                     </div>
@@ -62,11 +74,37 @@
             <div class="col-md-4">
                 <div class="card p-3" id="cardd">
                     <div class="card-body">
-                        <h5 class="card-title">Bases de Datos</h5>
+                        <h5 class="card-title">Bases de Datos </h5>
+                        <img src="img/base-de-datos.png" alt="" class="logo">
                         <ul class="list-unstyled">
-                            <li>MySQL, PostgreSQL</li>
+                            <li>MySQL, Oracle-db</li>
                             <li>Debeaver</li>
-
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Habilidades Sociales -->
+            <div class="col-md-4">
+                <div class="card p-3" id="cardd">
+                    <div class="card-body">
+                        <h5 class="card-title">Habilidades Sociales</h5>
+                        <img src="img/responsabilidad.png" alt="" class="logo">
+                        <ul class="list-unstyled">
+                            <li>Trabajo en Equipo</li>
+                            <li>Responsable</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Bases de Datos -->
+            <div class="col-md-4">
+                <div class="card p-3" id="cardd">
+                    <div class="card-body">
+                        <h5 class="card-title">Disponibilidad</h5>
+                        <img src="img/responsabilidad.png" alt="" class="logo">
+                        <ul class="list-unstyled">
+                            <li>Trabajo en Equipo</li>
+                            <li>Responsable</li>
                         </ul>
                     </div>
                 </div>
@@ -75,18 +113,21 @@
     </section>
 
     <!-- Sección de Experiencia Laboral -->
-    <section class="container my-5">
+    <section class="container my-5" id="experiencia">
         <h2 class="text-center mb-4">Experiencia Laboral</h2>
         <div class="row">
             <!-- Experiencia en Empresa XYZ -->
             <div class="col-md-6">
                 <div class="card p-3 mb-3">
                     <div class="card-body">
-                        <h5 class="card-title">Tecnico de Mantenimiento de Sistemas MicroInformáticos y Redes</h5>
-                        <p class="card-text">Enero 2023 - Actualidad</p>
-                        <p>Desarrollé e implementé aplicaciones web usando tecnologías modernas como React y
-                            Node.js.
-                            Coordiné con el equipo de diseño para optimizar la experiencia del usuario.</p>
+                        <h5 class="card-title">Tecnico de Mantenimiento de Sistemas
+                            MicroInformáticos y Redes</h5>
+                        <p class="card-text">CELTIMATICA - Septiembre de 2023</p>
+                        <ul>
+                            <li>Soporte de Páginas web Wordpress</li>
+                            <li>Atención al cliente</li>
+                            <li>Montaje y mantenimiento de equipos</li>
+                        </ul>
                     </div>
                 </div>
             </div>
